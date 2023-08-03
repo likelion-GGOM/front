@@ -1,5 +1,5 @@
 # front
 
-# GGOM-FRONT
+### GGOM-FRONT
 
-# HTML, JS, CSS
+### HTML, JS, CSS
