@@ -82,6 +82,7 @@ textarea {
   border-radius: 10px; 
   width: 80%;
   height: 30%;
+  border: 1px solid #bbb;
 }
 
 .fbtn {
