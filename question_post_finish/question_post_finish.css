@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.full {
+  font-family: 'Pretendard-Regular';
+  margin: 0 auto;
+  color: #404040;
+}
+
+.menu {
+  font-weight: bolder;
+}
+.hh {
+  border: none;
+}
+
+.profileInfo {
+  font-size:small;
+  height: 30%;
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 8%;
+}
+
+.line {
+  border-top: 1px solid #c9c8c8;
+  margin-top: 5%;
+  width: 100%;
+
+}
+.col {
+  margin-top: 10%;
+}
+
+.col2 {
+  margin-top:-6% ;
+  text-align: right;
+  margin-right: 5%;
+}
+
+.row {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.questionInput {
+  margin-top: 5%;
+  width: 70%;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+input {
+  border-radius: 10px;
+  border: 1px solid #bbb;
+}
+
+.Q {
+  margin-right: 1%;
+  font-weight: bold;
+  color: #2E7CF6;
+}
+
+.text {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.text2 {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.hash {
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  width: 30%;
+  padding: 2px 1px;
+  margin-left: 10%;
+}
+
+.fileInput {
+  text-align: center;
+  margin-top: 5%;
+  
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-top: 5%;
+  padding: 12px;
+  resize: none;
+  border-radius: 10px; 
+  width: 80%;
+  height: 30%;
+}
+
+.fbtn {
+  text-align: center;
+}
+
+.deleteBtn{
+  margin: 0 auto;
+  border: none;
+  font-size: small;
+  color:#2E7CF6;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  width: 40%;
+  font-weight: bold;
+}
+
+.hashtagBox { 
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hashtag {
+  margin-top: 5%;
+  font-size: smaller;
+  width: 40%;
+  text-align: center;
+  padding: 7px 9px;
+  border-radius: 20px;
+}
+
+.saveBtn{
+  margin: 0 auto;
+  border: none;
+  font-size: small;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #2E7CF6;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 40%;
+  font-weight: bold;
+}
+
