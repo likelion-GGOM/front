@@ -4,6 +4,7 @@
   font-weight: 500;
   font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400');
 
 .full {
   font-family: 'Pretendard-Regular';
@@ -90,6 +91,7 @@ textarea {
   border-radius: 10px; 
   width: 80%;
   height: 30%;
+  border: 1px solid #bbb;
 }
 
 .fbtn {
@@ -110,17 +112,139 @@ textarea {
   width: 80%;
 }
 
-.hashtagBox { 
-  margin: 0 auto;
+.wrapper {
+  padding: 20px 28px;
+  margin: 0;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  border: solid 2px white;
+}
+
+h3 {
+  margin: 10px 14px 10px 0;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+p {
+  margin: 10px 10px;
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+
+.hhh {
+  /* border: none; */
+  border-color: #bbb;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 8px;
+  width: 100%;
+  color: #666;
+  font-size: 16px;
+  outline: none;
+  font-size: small;
+}
+
+.tag-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.tag{
+
+  pointer-events: none;
+  color: #404040;
+  padding: 6px;
+  margin: 5px;
+}
+
+.tag::before {
+  pointer-events: all;
+  display: inline-block;
+  content: 'x';  
+  height: 20px;
+  width: 20px;
+  margin-right: 6px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2E7CF6;
+  cursor: pointer;
+  border-radius: 30%;
+}
+
+.file-upload input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip:rect(0,0,0,0);
+  border: 0;
+}
+
+.file-upload label {
+  display: inline-block;
+  padding: .5em .75em;
+  color: #999;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #fdfdfd;
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: .25em;
+}
+
+/* named upload */
+.file-upload .upload-name {
+  display: inline-block;
+  padding: .5em .75em;  /* label의 패딩값과 일치 */
+  font-size: inherit;
+  font-family: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  border: 1px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: .25em;
+  -webkit-appearance: none; /* 네이티브 외형 감추기 */
+  -moz-appearance: none;
+  appearance: none;
+}
+/* imaged preview */
+.file-upload .upload-display {  /* 이미지가 표시될 지역 */
+  margin-bottom: 5px;
+}
+
+.file-upload .upload-thumb-wrap {  /* 추가될 이미지를 감싸는 요소 */
+  display: inline-block;
+  width: 54px;
+  padding: 2px;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.file-upload .upload-display img {  /* 추가될 이미지 */
+  display: block;
+  max-width: 100%;
+  width: 100% \9;
+  height: auto;
+}
+
+.button2 {
   text-align: center;
 }
 
-.hashtag {
+.fileIn {
   margin-top: 5%;
-  font-size: smaller;
-  width: 40%;
   text-align: center;
-  padding: 7px 9px;
-  border-radius: 20px;
 }
 
