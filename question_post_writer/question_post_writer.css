@@ -45,11 +45,12 @@
 }
 
 .hash {
+  font-weight: bold;
   border: 1px solid #ddd;
   border-radius: 30px;
-  width: 20%;
+  width: 30%;
   padding: 2px 1px;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 .fileInput {

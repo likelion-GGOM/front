@@ -26,12 +26,11 @@ input.addEventListener('keydown', (event) => {
     }
 });
 
-
 $(document).ready(function(){
   console.log('dkdkdk =' , )
   var fileTarget = $('.file-upload .upload-hidden');
 
-  fileTarget.on('change', function(){  // 값이 변경되면
+  fileTarget.on('change', function(){
     if(window.FileReader){  // modern browser
       var filename = $(this)[0].files[0].name;
     } 
@@ -44,7 +43,6 @@ $(document).ready(function(){
   });
 }); 
 
-//preview image 
 var imgTarget = $('.preview-image .upload-hidden');
 
 imgTarget.on('change', function(){
@@ -52,7 +50,6 @@ imgTarget.on('change', function(){
   parent.children('.upload-display').remove();
 
   if(window.FileReader){
-    //image 파일만
     if (!$(this)[0].files[0].type.match(/image\//)) return;
 
     var reader = new FileReader();

@@ -158,32 +158,6 @@ input {
   font-weight: bold;
 }
 
-@font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-
-.full {
-  font-family: 'Pretendard-Regular';
-  margin: 0 auto;
-  color: #404040;
-}
-
-.menu {
-  font-weight: bolder;
-}
-.hh {
-  border: none;
-}
-
-.line {
-  border-top: 1px solid #c9c8c8;
-  margin-top: 5%;
-  width: 100%;
-
-}
 .col {
   margin-top: 10%;
 }
@@ -192,48 +166,6 @@ input {
   margin-top:-6% ;
   text-align: right;
   margin-right: 5%;
-}
-
-.row {
-  text-align: center;
-}
-
-.questionInput {
-  margin-top: 5%;
-  width: 70%;
-  padding: 10px 12px;
-  text-align: left;
-}
-
-input {
-  border-radius: 10px;
-  border: 1px solid #bbb;
-}
-
-.Q {
-  margin-right: 1%;
-  font-weight: bold;
-  color: #2E7CF6;
-}
-
-.text {
-  margin-top: 10%;
-  text-align: center;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.text2 {
-  margin-top: 10%;
-  text-align: center;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.fileInput {
-  text-align: center;
-  margin-top: 5%;
-  
 }
 
 .contentInput {
@@ -252,10 +184,6 @@ textarea {
   height: 30%;
 }
 
-.fbtn {
-  text-align: center;
-}
-
 .finishBtn{
   margin: 0 auto;
   border: none;
@@ -268,20 +196,6 @@ textarea {
   margin-top: 5%;
   margin-bottom: 10%;
   width: 80%;
-}
-
-.hashtagBox { 
-  margin: 0 auto;
-  text-align: center;
-}
-
-.hashtag {
-  margin-top: 5%;
-  font-size: smaller;
-  width: 40%;
-  text-align: center;
-  padding: 7px 9px;
-  border-radius: 20px;
 }
 
 .file-upload input[type="file"] {
@@ -309,10 +223,9 @@ textarea {
   border-radius: .25em;
 }
 
-/* named upload */
 .file-upload .upload-name {
   display: inline-block;
-  padding: .5em .75em;  /* label의 패딩값과 일치 */
+  padding: .5em .75em;
   font-size: inherit;
   font-family: inherit;
   line-height: normal;
@@ -321,11 +234,11 @@ textarea {
   border: 1px solid #ebebeb;
   border-bottom-color: #e2e2e2;
   border-radius: .25em;
-  -webkit-appearance: none; /* 네이티브 외형 감추기 */
+  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
-/* imaged preview */
+
 .file-upload .upload-display {
   margin-bottom: 5px;
 }
@@ -351,10 +264,7 @@ textarea {
   text-align: center;
 }
 
-
 .fileIn {
   margin-top: 5%;
   text-align: center;
 }
-
-
