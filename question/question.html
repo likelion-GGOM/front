@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="question.js"></script>
   <link rel="stylesheet" href="question.css">
   <title>Question</title>
 </head>
@@ -35,11 +34,16 @@
       <div class="text">
         사진 또는 동영상을 첨부해주세요.
       </div>
-  
-      <div class="fileInput">
-        <img src="../img/Rectangle 7.png">
-        <img src="../img/Rectangle 7.png">
-        <img src="../img/Rectangle 7.png">
+
+      <div class="fileIn">
+        <div class="file-upload preview-image">
+          <label for="input-file">
+            사진첨부
+          </label> 
+          <input multiple="multiple" type="file" id="input-file" class="upload-hidden"> 
+        </div>
+      </div>
+
       <div class="text2">
         자세한 설명을 적어주세요.
       </div>
@@ -48,10 +52,12 @@
         <textarea name="content"rows="8" placeholder="모르는 부분을 꼼꼼하게 적어주실 수록, 더 꼼꼼한 답변을 얻을 수 있어요"></textarea>
       </div>
 
-      <div class="hashtagBox">
-        <input class="hashtag" type="text" placeholder="해시태그를 입력해주세요">
+      <div class="wrapper">
+        <input class="hhh" type="text" id="hashtags" autocomplete="off" placeholder="해시태그를 입력 후 Enter를 눌러주세요">
+        <div class="tag-container">
+        </div>
       </div>
-  
+
       <div class="fbtn">
         <a href="https://aa">
           <button class="finishBtn">
@@ -61,5 +67,7 @@
       </div>
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="question.js"></script>
   </body>
 </html>

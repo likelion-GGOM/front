@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.wrapper {
+  padding: 20px 28px;
+  margin: 0;
+  width: 580px;
+  background-color: #273c75;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  border: solid 2px white;
+}
+
+h3 {
+  margin: 10px 14px 10px 0;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+p {
+  margin: 10px 10px;
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+
+input {
+  border: none;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 8px;
+  width: 100%;
+  color: #666;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  outline: none;
+}
+
+.tag-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.tag{
+  pointer-events: none;
+  background-color: #242424;
+  color: white;
+  padding: 6px;
+  margin: 5px;
+}
+
+.tag::before {
+  pointer-events: all;
+  display: inline-block;
+  content: 'x';  
+  height: 20px;
+  width: 20px;
+  margin-right: 6px;
+  text-align: center;
+  color: #ccc;
+  background-color: #111;
+  cursor: pointer;
+}
+
+
+.full {
+  font-family: 'Pretendard-Regular';
+  margin: 0 auto;
+  color: #404040;
+}
+
+.menu {
+  font-weight: bolder;
+}
+.hh {
+  border: none;
+}
+
+.line {
+  border-top: 1px solid #c9c8c8;
+  margin-top: 7%;
+  width: 100%;
+}
+
+.profile {
+  margin-top: 10%;
+  width: 30%;
+}
+
+.imgChange {
+  font-size: small;
+}
+
+.id {
+  margin-top: 10%;
+  border-color: #404040;
+  width: 30%;
+  background-color: #c2b5b5;
+  border-radius: 30%;
+}
+
+.row {
+  text-align: center;
+  margin-top: 10%;
+}

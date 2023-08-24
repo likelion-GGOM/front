@@ -1,31 +1,3 @@
-let input, hashtagArray, container, t;
-
-input = document.querySelector('#hashtags');
-container = document.querySelector('.tag-container');
-hashtagArray = [];
-
-console.log('input =' , input)
-input.addEventListener('keydown', (event) => {
-  console.log('kkk =' , )
-  console.log('event =' , event)
-    if (event.which == 13 && input.value.length > 0) {
-      var text = document.createTextNode(input.value);
-      var p = document.createElement('p');
-      container.appendChild(p);
-      p.appendChild(text);
-      p.classList.add('tag');
-      input.value = '';
-      
-      let deleteTags = document.querySelectorAll('.tag');
-      
-      for(let i = 0; i < deleteTags.length; i++) {
-        deleteTags[i].addEventListener('click', () => {
-          container.removeChild(deleteTags[i]);
-        });
-      }
-    }
-});
-
 $(document).ready(function(){
   console.log('dkdkdk =' , )
   var fileTarget = $('.file-upload .upload-hidden');
@@ -34,7 +6,7 @@ $(document).ready(function(){
     if(window.FileReader){
       var filename = $(this)[0].files[0].name;
     } 
-    else { 
+    else {
       var filename = $(this).val().split('/').pop().split('\\').pop();
     }
     $(this).siblings('.upload-name').val(filename);
